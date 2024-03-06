@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start:frontend": "cd findyourfarm && npm start",
+    "start:backend": "python apitest.py",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
+  }
+}
