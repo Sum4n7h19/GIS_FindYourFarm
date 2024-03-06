@@ -1,0 +1,152 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(57, 53, 156);
+    height: 75px;
+    padding:20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    margin-right: 500px;
+}
+.menu {
+    display: flex;
+}
+
+.container-menu {
+    flex-direction: column;
+    background-color: rgb(4, 31, 82);
+    margin-left: 0px;
+    width: 300px;
+    border: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+.select {
+    font-family: 'Times New Roman', Times, serif;
+    width: 50px;
+    box-sizing: border-box;
+    border: 10px;
+    border-radius: 10px;
+    max-width: 250px;
+    background-color:hsl(217, 83%, 72%);
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 32px;
+    color: black;
+}
+::placeholder {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.surveyno {
+    width: 250px;
+    height: 37px;
+    box-sizing: border-box;
+    border: 10px;
+    border-radius: 2px; box-sizing: border-box;
+    border: 10px;
+    border-radius: 2px;
+    background-color:hsl(217, 83%, 72%);
+    margin-left: 15px;
+    padding-left: 2px;
+    color: aliceblue;
+    margin-top: 16px;
+    text-align:center;
+}
+button {
+    width: 250px;
+    height: 37px;
+    box-sizing: border-box;
+    border: 10px;
+    border-radius: 2px;
+    background-color:hsl(217, 83%, 72%);
+    margin-left: 15px;
+    margin-top: 25px;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.Select {
+    margin-top: 10px;
+}
+/* MapContainerComponent.css */
+.map-container {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+   
+  }
+.map-box {
+    position: absolute;
+    width: 1300px;
+    height: 550px;
+    left: 370PX;
+    top: 90px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 10px black;
+    border-radius: 1px;
+
+}
+.bbox {
+    flex: 1;
+    text-align: center;
+    color:aliceblue;
+    background-color: rgb(4, 31, 82);
+    margin-bottom: 20px;
+}
+a {
+    color:aliceblue;
+    word-wrap:break-word;
+}
+
+
+.alert {
+    display: flexbox;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e60c0c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    z-index: 999;
+    max-width: 80%; /* Adjust the maximum width as needed */
+    overflow: auto; /* Enable scrolling if content overflows */
+}
+.alert-content {
+    padding: 20px;
+    max-height: 400px; 
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.col {
+    text-align: right;
+    margin-left: 300px;
+    font-size: 18px;
+    align-items: end;
+    text-decoration: none;
+}
+.link-container {
+    text-decoration: none;
+    text-align: center;
+    margin-left: 850px;
+}
