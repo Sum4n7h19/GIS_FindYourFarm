@@ -10,7 +10,7 @@
   "scripts": {
     "start:frontend": "cd findyourfarm && npm start",
     "start:backend": "python apitest.py",
-    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:p": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "pip-install": "pip install -r requirements.txt",
     "start": "npm run build && npm run pip-install"
