@@ -1,8 +1,0 @@
-Flask
-flask-restful
-geopandas
-requests
-matplotlib
-flask_sqlalchemy
-flask_cors
-flask_migrate

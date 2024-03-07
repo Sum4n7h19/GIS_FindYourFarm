@@ -108,8 +108,8 @@ class ImageGenerator(Resource):
 
         for idx, row in gdf.iterrows():
             centroid = row['geometry'].centroid
-            ax.text(centroid.x, centroid.y + 1, f"{row['area']:.2f} Acre", fontsize=6, ha='center', va='center')
-            ax.text(centroid.x, centroid.y - 12, f"{row['perimeter']:.2f} km", fontsize=6, ha='center', va='center')
+            ax.text(centroid.x, centroid.y + 10, f"{row['area']:.2f} Acre", fontsize=6, ha='center', va='center')
+            ax.text(centroid.x, centroid.y - 15, f"{row['perimeter']:.2f} km", fontsize=6, ha='center', va='center')
 
         arrow_length = 0.02
         # Adjust the xy and xytext coordinates to place the arrow on the left corner
