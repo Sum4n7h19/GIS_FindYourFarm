@@ -55,8 +55,7 @@ const HomeScreen = () => {
   const clickHandler = async () => {
     try {
       axios.get(
-        `http://localhost:5000/downloads/${villageInfo[1]}/${villageInfo[0]}`,
-        { responseType: "arraybuffer" }
+        `http://localhost:5000/downloads/${villageInfo[1]}/${villageInfo[0]}`
       );window.location.reload();
     } catch (error) {
         if (error.response && error.response.status === 403) {
