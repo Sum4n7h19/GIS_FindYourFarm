@@ -118,7 +118,7 @@ class ImageGenerator(Resource):
                     fontsize=12, ha='center', va='center', xycoords='axes fraction', textcoords='axes fraction')
 
         plt.xticks(rotation=90)
-        plt.title(f'Survey Number: {surveyNO}')
+        plt.title(f'Survey Number: {surveyNO}', y= 1.05)
         plt.xlabel('Easting')
         plt.ylabel('Northing')
         plt.show()
